@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  margin: 0 auto;
+  width: 960px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  padding-right: 20px;
+  padding: 10px 20px;
+}
+
+header nav ul li a {
+  color: #000000;
+}
+
+.login a {
+  background: #d6000d;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 40px;
+  color: #d6000d;
+  font-weight: bold;
+}
+
+.logo span {
+  font-weight: bold;
+  color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+.conteudo-principal {
+  margin-bottom: 200px;
+}
+
+.conteudo-principal .container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .container-orcamento {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container-orcamento {
+  padding-top: 64px;
+}
+
+.container-orcamento p {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+
+.container .container-orcamento .website {
+  color: #d6000d;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container .container-orcamento .btn-solicitar {
+  color: #ffffff;
+  background: #d6000d;
+  padding: 12px 36px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.servicos .container .container-servicos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-servicos .servicos-ul {
+  list-style: none;
+  line-height: 2;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-servicos .servicos-ul li {
+  font-size: 18px;
+}
+
+.container-servicos .servicos-ul li span {
+  padding-bottom: 1px;
+}
+
+.formulario-contato p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.formulario-contato form {
+  margin-top: 10px;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 100px;
+}
+
+.formulario-contato form input {
+  margin-right: 10px;
+  border-radius: 10px;
+  border-style: none;
+  background: #dcdcdc;
+  padding: 14px 6px 14px 16px;
+  font-weight: bold;
+}
+
+.formulario-contato .btn-solicitar {
+  color: #ffffff;
+  background: #d6000d;
+  padding: 12px 36px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #d6000d;
+  color: #ffffff;
+}
