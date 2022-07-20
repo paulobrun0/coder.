@@ -124,12 +124,12 @@ img {
   list-style: none;
   line-height: 2;
   font-weight: bold;
-  display: flex;
-  flex-direction: column;
 }
 
 .container-servicos .servicos-ul li {
   font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 
 .container-servicos .servicos-ul li span {
@@ -175,4 +175,5 @@ img {
   border-radius: 50%;
   background: #d6000d;
   color: #ffffff;
+  margin-right: 10px;
 }
