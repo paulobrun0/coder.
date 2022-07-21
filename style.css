@@ -34,6 +34,7 @@ header nav ul li {
 
 header nav ul li a {
   color: #000000;
+  font-weight: bold;
 }
 
 .login a {
@@ -141,11 +142,14 @@ img {
   font-size: 16px;
 }
 
+.formulario-contato {
+  margin: 30px 0 0 40px;
+}
+
 .formulario-contato form {
   margin-top: 10px;
   display: flex;
   align-items: baseline;
-  margin-bottom: 100px;
 }
 
 .formulario-contato form input {
@@ -176,4 +180,47 @@ img {
   background: #d6000d;
   color: #ffffff;
   margin-right: 10px;
+}
+
+.depoimentos {
+  margin-top: 100px;
+}
+
+.depoimentos .container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.card-depoimentos {
+  border-radius: 10px;
+  width: 440px;
+  background: #dcdcdc;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 20px 24px 24px;
+}
+
+.card-depoimentos .img-depoimentos img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.card-depoimentos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-depoimentos ul li .nome-depoimentos {
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.card-depoimentos ul li .empresa-depoimentos {
+  font-size: 14px;
+  font-weight: bold;
 }
