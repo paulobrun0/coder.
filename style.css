@@ -8,6 +8,12 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 p {
@@ -24,7 +30,6 @@ header {
 
 header nav ul {
   display: flex;
-  list-style: none;
 }
 
 header nav ul li {
@@ -208,12 +213,6 @@ img {
   margin-right: 20px;
 }
 
-.card-depoimentos ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .card-depoimentos ul li .nome-depoimentos {
   font-size: 20px;
   padding-top: 10px;
@@ -223,4 +222,73 @@ img {
 .card-depoimentos ul li .empresa-depoimentos {
   font-size: 14px;
   font-weight: bold;
+}
+
+footer {
+  background: #000000;
+  color: #ffffff;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 80px 0;
+}
+.container .codar .logo {
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+footer .container h2 {
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+
+footer .container .codar h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sobre-footer p {
+  width: 180px;
+}
+
+.contato-footer p {
+  padding-bottom: 20px;
+}
+
+footer .container .redes-sociais-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .container .redes-sociais-footer ul {
+  display: flex;
+}
+
+footer .container .redes-sociais-footer ul li .check {
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+  background: #d6000d;
+  color: #000000;
+  margin: 0;
+}
+
+footer .container .redes-sociais-footer ul li .check-black {
+  color: #d6000d;
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+  margin: 0;
+}
+
+footer .container .redes-sociais-footer ul li {
+  padding-right: 18px;
+}
+
+footer .container .redes-sociais-footer ul li:last-child {
+  padding: 0;
 }
